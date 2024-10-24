@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul a{
+    color: #fff;
+    margin:0 12px;
+    font-size: 20px;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+#hero{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12%;
+}
+
+#hero h2{
+    font-size: 50px;
+    color: yellowgreen;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+#hero h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+#hero button{
+    background-color: yellowgreen;
+    color: #666;
+    padding: 10px 30px;
+    font-size: 26px;
+    border-radius: 8px;
+}
+
+    /* MAIN */
+#planes{
+    width: 100%;
+    position: relative;
+    padding: 120px 0px;
+    text-align: center;
+}
+
+#planes h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#planes h3{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#planes .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#planes article{
+    margin: 20px 50px;
+    position: relative;
+
+}
+
+#planes article h3{
+    position: absolute;
+    top:120px;
+    color: yellowgreen;
+    width: 100%;
+    text-align: center;
+}
+
+#destinos{
+    width: 100%;
+    padding: 120px 0 50px;
+    background: url("../img/bg-destinos.png");
+    background-size: cover;
+    text-align: center;
+}
+
+#destinos h2{
+    color: yellowgreen;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#destinos .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#destinos article{
+    margin: 30px 180px;
+}
+
+#destinos h3{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background-color: yellow;
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px ;
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px ;
+}
+
+#contacto button{
+    background-color: #94940c;
+    color: #fff;
+    font-size: 22px;
+    padding: 12px 50px;
+    border-radius: 6px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
